@@ -1,0 +1,15 @@
+h1{
+    border : 1px solid black;
+    width: 200px;
+    height: 85px;
+    background-color: red;
+    border-radius: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+button{
+    width :50%;
+    height: 50%;
+    background-color: aquamarine;
+}
