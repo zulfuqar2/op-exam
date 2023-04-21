@@ -34,14 +34,18 @@ class Group {
     }
 
     removeStudents(name,nextId){
-        const byId = this.students.find.byId(student => student.id === id);{
+        const byId = this.students.findbyId(student => student.id === id);{
             if(byId !==0){
                 this.students.splice(byId,1);
-                return ;
-            }
+                return  true;
+            } 
         }
     }
   }
+  const Group1 =new Group("seyfulla");
+  Group1.addStudent("anar");
+  Group1.addStudent("anar");
+  console.log(Group1); 
 
 class Faculity{
 

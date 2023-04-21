@@ -1,3 +1,9 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h1{
     border : 1px solid black;
     width: 200px;
@@ -11,5 +17,13 @@ h1{
 button{
     width :50%;
     height: 50%;
-    background-color: aquamarine;
+    background-color: bisque;
+
+}
+button:hover{
+   background-color: aqua;
+}
+
+h1:hover{
+    background-color: orange;
 }
